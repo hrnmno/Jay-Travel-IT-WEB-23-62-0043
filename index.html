@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+body
+{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.header
+{
+    background-color: black;
+    height:40%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+ 
+}
+
+
+h3
+{
+    margin:0;
+    color:rgb(231, 88, 88)
+}
+.header li 
+{
+    display:inline;
+    margin:12px;
+    color:white;
+}
+.header li a
+{
+    color: white;
+    padding: 12px;
+}
+#home
+{
+    color: rgb(236, 71, 71);
+}
+img
+{
+    height:400px;
+    width:100%
+}
+.cards
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+            
+}
+.Feed-back
+{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+   
+    margin: 10px;
+}
+.card
+{
+    width:200px;
+    height:250px;
+    margin:10px;
+    background-size: cover;
+   
+}
+.card-t
+{   width: 350px;
+    height:500px;
+    margin:10px;
+    text-align: center;
+    border-color: blue;
+    box-shadow: aqua;
+    background-size: cover;
+  
+}
+.h4
+{
+    text-align: center;
+    font-family: ;
+}
+
+.card-team
+{
+    width:350px;
+    height:600px;
+    margin:10px;
+    margin-bottom: 10px;
+    background-size: cover;
+   
+}
+.card-image
+{
+    height: 175px;
+    background-size: cover;
+}
+.card-team-image
+{
+    height: 500px;
+    background-size: cover;
+}
+.card-1
+{
+    background-image:url(./Top\ Destinations/Sri\ Lanka.jpg);
+}
+.card-2
+{
+    background-image: url(./Top\ Destinations/ROME.jpg);
+}
+.card-3
+{
+    background-image: url(./Top\ Destinations/MALDIVES.jpg);
+}
+.card-4
+{
+    background-image: url(./Top\ Destinations/SWITZERLAND.jpg);
+}
+.card-5
+{
+    background-image:url(./Top\ Destinations/thailand.jpg);
+}
+h2
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    color: red;
+    margin-bottom: 0%;
+}
+p
+{
+    text-align: center;
+    flex-direction:row;
+            
+}
+.card-6
+{
+    background-image: url(./Team\ Leaders/Hugo\ Silva.jpg);
+    
+}
+.card-7
+{
+    background-image: url(./Team\ Leaders/Imanoli\ Arias.jpg);
+   
+}
+.card-8
+{
+    background-image: url(./Team\ Leaders/Javier\ Bardem.jpg);
+  
+   
+}
+.banner
+{
+    max-width: 100%;
+    min-height: 80px;
+    background-color: rgb(8, 31, 31);
+    display: flex;
+    margin-top: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    flex-direction: row;
+    text-align: center;
+    background-size: cover;
+  
+
+}
+.banner-C
+{
+    max-width: 100%;
+    min-height: 40px;
+    background-color: rgb(9, 49, 49);
+    display: flex;
+    margin-top: 50px;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-bottom: 0%;
+    color: aliceblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: self-start;
+    background-size: cover;
+}
+h4
+{
+    color: brown;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0%;
+    flex-direction: column;
+}
+       
+.overhead
+{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: auto;
+    background-size: cover;
+
+}
+.details
+{
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+}
+.text
+{
+    display: flex;
+    background-size: cover;
+}
+.left,
+.middle,
+.right
+{
+    display: flex;
+    box-shadow:0.1px 2px 0px 0px rgba(113, 87, 228, 0.966);
+    width:50%;
+    height:50%px;
+    margin: 12px;
+    background-color: rgb(251, 252, 253);
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.form
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.personal
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+.mail
+{
+    padding-bottom: 25px;
+    width: 100px;
+    display: flex;
+    padding-bottom: 25px;
+
+}
+
+.check
+{
+    padding-top: 20px;
+    padding-bottom: 25px;
+   
+}
+    
+#p1{
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+#h
+{
+    color: rgb(100, 140, 250);
+    margin-bottom: 0%;
+}
+#c1
+{
+margin: 10px;
+}
+#b
+{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.personal .button
+{
+justify-content: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+background: #1c87c9; 
+}
+
+.copy
+{
+display: flex;
+background-color: black;
+min-height: 40px;
+color:white;
+min-width: 100%;
+justify-content: center;
+align-items: center;
+}
+
+
+</style>
+</head>
+
+<body>
+    
+<div>
+    <header class="header">
+        <h3>JAY TOURS</h3>
+            <nav>
+                <ul>
+                    <li id="home"> HOME</li>
+                    <li> <a href="ABOUT.html">ABOUT</a></li> 
+                    <li> <a href="SERVICES.html">SERVICES</a></li> 
+                    <li> <a href="TESTIMONIALS.html">TESTIMONIALS</a></li>
+                    <li> <a href="PORTFOLIO.html">PORTFOLIO</a></li>
+                    <li> <a href="CONTACTS.html">CONTACTS</a></li>
+                </ul>
+            </nav>   
+    </header>
+</div> 
+   <img src="main.jpg">
+<div>
+    <h1>DESTINATIONS</h1>
+</div>
+   
+<main class="cards">
+    <div class="card">
+        <h2>SRI LANKA</h2>
+        <div class="card-image card-1"></div>
+    </div>
+    <div class="card">
+        <h2>ROME</h2>
+        <div class="card-image card-2"></div>
+    </div>
+    <div class="card">
+        <h2>MALDIVES</h2>
+        <div class="card-image card-3"></div>
+    </div>
+    <div class="card">
+        <h2>SWITZERLAND</h2>
+        <div class="card-image card-4"></div>
+    </div>
+    <div class="card">
+        <h2>THAILAND</h2>
+        <div class="card-image card-5"></div>
+    </div>
+</main>
+<div>
+   <h1>OUR TEAM LEADS</h1>
+   <p>Teamwork is the ability to work together toward a common vision. The ability to direct <br> induviual accomplishments toward organizational objectives, it is the fuel that allows<br>common people to attain uncommon results.</p>
+</div>
+<div>
+<main class="cards">
+    <div class="card-team">
+    <div class="card-team-image card-6"></div>
+        <p id="c1">Hugo Silva</p>
+    </div>
+    <div class="card-team">
+    <div class="card-team-image card-7"></div>
+        <p id="c1">Imanoli Arias</p>
+    </div>
+    <div class="card-team">
+    <div class="card-team-image card-8"></div>
+        <p id="c1">Javier Bardem</p>
+    </div>
+    </main>
+    </div>
+    
+    <section class="banner">
+    <div>
+        <h4>250 +</h4>
+        <p id="b">HAPPY CLIENTS</p>
+    </div>
+    <div> 
+        <h4>800</h4>
+        <p id="b">WEEKLY RESERVATION</p>
+    </div>
+    <div>
+        <h4>150</h4>
+        <p id="b">TRAVEL PARTNERS</p>
+    </div>
+    <div> 
+        <h4>15</h4>
+        <p id="b">BRANCHES</p>
+    </div>
+    </div>    
+    </section>
+   
+</div>
+<h1>OVERHEAD FROM TRAVELERS</h1>
+<div>
+    <div class="overhead">
+    <div class="details">
+    <div class="text">
+    <div class="left"> 
+        <p id="h">Hotel Eucalyptus <br> <sub>in Greece</sub></p>
+        <p>"We booked Hotel Eucalyptus<br>through jay after reading a<br>handful of reviews, and it was<br>easily the best decision we made<br><a href="More">...more"</a></p>
+        <p>-Joyce from Canada</p>
+    </div>
+    <div class="middle">
+        <p id="h"> Holiday Inn Resort Batam<br> <sub>in Indonesia</sub></p>
+        <p>"Thanks Jay for letting me<br>change room without change<br>and regate the difference.Nice<br>staffs Agoda and Holiday Inn!"</p>
+        <p>-Andy from Singapore</p>
+    </div> 
+    <div class="right">
+        <p id="h">otel Granvia Kyoto <br> <sub>in Japan</sub></p>
+        <p>H"Our family was travelling via<br>bullet train between cities in<br>Japan with our luggage - the location for this hotel made that<br> <a href="More">...more"</a></p>
+        <p>-Diane from the United States</p> 
+        </div>
+        </div>
+    </div>
+</div>
+ 
+    <div>
+        <section class="form">
+        <form>
+        <div>
+          <H1>CONTACT US</H1>  
+          </div>
+          <div class="personal">
+          <input text="text" placeholder="First Name">
+          <input text="text" placeholder="Last Name">
+          </div>
+        <div class="mail">
+          <input text="text" placeholder="E-mail" size="46">
+          </div>
+          <div>
+          <input text="text" placeholder="Phone Number" size="46">
+          </div>
+          <div>
+        <input type="checkbox"> Subscribe to our news letter
+        </div>
+          <div>
+            <button type="button"> Sign in </button>
+          </div>
+        </form>
+        </section>
+    </div>
+    <section class="contact">
+        
+    </section>
+
+    <footer class="banner-C">
+        <div>
+            <h5>HELP</h5>
+            <h5>Help Center</h5>
+            <h5>FAQs</h5>
+            <h5>Terms of Use</h5>
+        </div>
+        <div>   
+            <h5>ABOUT US</h5>
+            <h5>Blog</h5>
+            <h5>Careers</h5>
+        </div>
+        <div>
+            <h5>DESTINATIONS</h5>
+            <h5>Countries</h5>
+            <h5>Cities</h5>
+        </div>
+        <div> 
+            <h5>PARTNER WITH US</h5>
+            <h5>Properties</h5>
+            <h5>Affliates</h5>
+        </div> 
+        <div>
+            <p>  <i class="fa-solid fa-phone"></i> +94 112 875 965 <br> +94 115 879 568</p>
+            <p>  <i class="fa fa-map-marker" aria-hidden="true"></i> No.56 <br>Havlok Town,<br>Colombo 05,<br>Sri Lanka </p>
+        </div> 
+    </div>
+    <div class="copy">
+        <p>Copyright 2020 SLIIT WEB DEVELOPMENT- all rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
